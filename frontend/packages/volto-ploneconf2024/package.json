@@ -27,10 +27,12 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "addons": [
-    "@plonegovbr/volto-code-block"
+    "@plonegovbr/volto-code-block",
+    "@plone-collective/volto-authomatic"
   ],
   "dependencies": {
-    "@plonegovbr/volto-code-block": "*"
+    "@plonegovbr/volto-code-block": "*",
+    "@plone-collective/volto-authomatic": "*"
   },
   "peerDependencies": {
     "react": "18.2.0",
